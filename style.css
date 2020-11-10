@@ -5,6 +5,8 @@ body {
     margin-left: 1
 }
 
+
+
 .container_head {
 	display: flex;
 	flex-direction:column;
@@ -15,20 +17,34 @@ body {
     align-items: center;
     font-family: 'Lobster', cursive;
     color: #F95;
+
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	height: 50px;
+	background-color: #1F1F1F;
+	margin-top: 60px;
+	padding: 15px 20px;
+	border-radius: 999px  99px 99px 999px;
+	align-items: center;
+    font-family: 'Goldman', cursive;
+
 }
 
 .Big {
 	font-size: 50px;
-
 }
 
 .small {
 	font-size: 30px;
-
 }
 
 .container_text {
 	padding: 20px ;
+
 }
 
 .container_photo {
@@ -44,8 +60,4 @@ body {
 	display: flex;
 	justify-content: space-around;
 	background-color: #000;
-}
-
-.container_footer a {
-	color: #f0f;
 }
