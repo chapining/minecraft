@@ -1,0 +1,162 @@
+body {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 25px ;
+}
+
+
+
+.header_container {
+	display: flex;
+	flex-direction:column;
+	background-image: url(img/Big.jpg);
+	height: 700px;
+	background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    color: #F95;
+
+}
+
+
+.Big {
+	font-size: 50px;
+}
+
+.small {
+	font-size: 30px;
+}
+
+.menu_container ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+/*меню*/
+.menu_container {
+	background-color: #000;
+
+}
+
+.menu_container a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*текст*/
+.text_container {
+	padding: 20px ;
+
+}
+
+.container_photo {
+	display: flex;
+	justify-content: space-around;
+}
+
+.container_photo img {
+    
+}
+
+.comtainer_footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: #000;
+}
+
+.botton_sticky {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #0f0;
+	color: #f00;
+	bottom: 100px;
+	right: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position:fixed;
+}
+
+.container_botton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	font-family: 'Goldman', cursive;
+	z-index: 1;
+}
+
+.button {
+	width: 200px;
+	height: 50px;
+	text-decoration: none;
+	background-color: #1F1F1F;
+	margin-top: 70px;
+	padding: 15px 20px;
+	border-radius: 50px  50px 50px 50px;
+	font-family: 'Goldman', cursive;
+	margin-right: 0.4em;
+	border: 10px solid #1f1f1f;
+}
+
+.button2 {
+	width: 200px;
+	height: 50px;
+	border: 3px solid #fff;
+	margin-top: 60px;
+	padding: 15px 20px;
+	border-radius: 999px  999px 999px 999px;
+	font-family: 'Goldman', cursive;
+	margin-left: 10px;
+}
+
+.button:hover {
+	background-color: #fF1F1F;
+	border: 5px solid #fF1F1F;
+}
+
+
+.button2:hover {
+	border-style: dashed;
+}
+
+.container_dno {
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container_dno img {
+	height: 50px;
+	margin-left: 50px;
+}
+
+#inst {
+
+}
+
+#vk {
+
+}
+
+#copyright {
+	color: #fff;
+}
+
+.container_Vdne {
+	justify-content: space-around;
+	padding: 15px;
+}
+
+/* yandex.map */
+#map_container {
+	height: 100vh;
+}
