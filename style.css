@@ -3,7 +3,7 @@ body {
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
-    font-size: 25px ;
+    font-size: 3vh ;
 }
 
 
@@ -12,7 +12,7 @@ body {
 	display: flex;
 	flex-direction:column;
 	background-image: url(img/Big.jpg);
-	height: 700px;
+	height: 100vh;
 	background-size: cover;
     justify-content: center;
     align-items: center;
@@ -23,11 +23,11 @@ body {
 
 
 .Big {
-	font-size: 50px;
+	font-size: 5vh;
 }
 
 .small {
-	font-size: 30px;
+	font-size: 5vh;
 }
 
 .menu_container ul {
@@ -35,7 +35,7 @@ body {
 	list-style-type: none;
 	margin: 0;
 	justify-content: space-around;
-	padding: 20px;
+	padding: 4vh;
 }
 
 /*меню*/
@@ -47,11 +47,12 @@ body {
 .menu_container a {
 	color: #fff;
 	text-decoration: none;
+	
 }
 
 /*текст*/
 .text_container {
-	padding: 20px ;
+	padding: 4vh ;
 
 }
 
@@ -71,13 +72,13 @@ body {
 }
 
 .botton_sticky {
-	width: 100px;
-	height: 100px;
+	width: 10vh;
+	height: 10vh;
 	border-radius: 50%;
 	background-color: #0f0;
 	color: #f00;
-	bottom: 100px;
-	right: 100px;
+	bottom: 10vh;
+	right: 10vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -94,8 +95,8 @@ body {
 }
 
 .button {
-	width: 200px;
-	height: 50px;
+	width: 20vh;
+	height: 8vh;
 	text-decoration: none;
 	background-color: #1F1F1F;
 	margin-top: 70px;
@@ -159,4 +160,19 @@ body {
 /* yandex.map */
 #map_container {
 	height: 100vh;
+}
+
+.mapes_container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+}
+
+#map_bical_container {
+	height: 100vh;
+	width: 100vh;
+}
+#map_text {
+	color: white;
 }
