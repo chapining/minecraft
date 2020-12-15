@@ -3,7 +3,6 @@ body {
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
-    font-size: 3vh ;
 }
 
 
@@ -62,7 +61,7 @@ body {
 }
 
 .container_photo img {
-    
+    margin: 0 10%;
 }
 
 .comtainer_footer {
@@ -95,27 +94,24 @@ body {
 }
 
 .button {
-	width: 20vh;
 	height: 8vh;
 	text-decoration: none;
 	background-color: #1F1F1F;
-	margin-top: 70px;
-	padding: 15px 20px;
-	border-radius: 50px  50px 50px 50px;
+	margin-top: 16vh;
+	padding: 3vh 4vh;
+	border-radius: 50px 50px 50px 50px;
 	font-family: 'Goldman', cursive;
-	margin-right: 0.4em;
+	margin-right: 2vh;
 	border: 10px solid #1f1f1f;
 }
 
 .button2 {
-	width: 200px;
-	height: 50px;
 	border: 3px solid #fff;
-	margin-top: 60px;
-	padding: 15px 20px;
-	border-radius: 999px  999px 999px 999px;
+	margin-top: 15vh;
+	padding: 3vh 4vh;
+	border-radius: 999px 999px 999px 999px;
 	font-family: 'Goldman', cursive;
-	margin-left: 10px;
+	margin-left: 2vh;
 }
 
 .button:hover {
@@ -137,7 +133,6 @@ body {
 
 .container_dno img {
 	height: 50px;
-	margin-left: 50px;
 }
 
 #inst {
@@ -145,7 +140,7 @@ body {
 }
 
 #vk {
-
+margin-left: 2vw;
 }
 
 #copyright {
@@ -154,7 +149,8 @@ body {
 
 .container_Vdne {
 	justify-content: space-around;
-	padding: 15px;
+	padding: 4vh;
+
 }
 
 /* yandex.map */
@@ -171,8 +167,31 @@ body {
 
 #map_bical_container {
 	height: 100vh;
-	width: 100vh;
+	width: 50vw;
 }
 #map_text {
 	color: white;
+	font-size: 3vw;
 }
+
+@media (max-width: 850px) {
+	.container_photo {
+		flex-direction: column;
+	}
+
+	.container_photo img {
+		height: 50vw;
+	}
+
+	.footer_item {
+		margin: 10px 0;
+	}
+
+	.container_dno {
+		flex-direction: column;
+	}
+	.container_Vdne {
+		margin-left: 0vw;
+	}
+}
+
