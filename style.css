@@ -21,12 +21,15 @@ body{
 }
 
 
-.Big {
-	font-size: 5vh;
-}
+.titles {
+	display: flex;
+	position: absolute;
+	height: 20vh;
+	width: 30vw;
+	background-color: black;
+	background-blend-mode: multiply;
+	color: white;
 
-.small {
-	font-size: 5vh;
 }
 
 .menu_container ul {
@@ -56,12 +59,15 @@ body{
 }
 
 .container_photo {
-	display: flex;
-	justify-content: space-around;
+	height:100vh 
+    width: 100vw;
 }
 
 .container_photo img {
-    margin: 0 10%;
+    margin: 0;
+    height:100vh 
+    width: 100vw;
+
 }
 
 .comtainer_footer {
@@ -183,13 +189,6 @@ margin-left: 2vw;
 	justify-content: space-between;
 }
 
-.video_item4 {
-	position: absolute;
-	padding-bottom:56.25%;
-	height:100vh;
-	width:100vw;
-}
-
 #map_bical_container {
 	height: 100vh;
 	width: 50vw;
@@ -219,4 +218,3 @@ margin-left: 2vw;
 		margin-left: 0vw;
 	}
 }
-
